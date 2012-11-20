@@ -1,0 +1,39 @@
+{
+    "name" : "shell-stream",
+    "version" : "0.0.0",
+    "description" : "encrypted shell over arbitrary streams",
+    "main" : "index.js",
+    "bin" : {
+        "shell-stream" : "bin/cmd.js"
+    },
+    "directories" : {
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {
+        "request" : "~2.12.0",
+        "secure-peer" : "~0.2.0"
+    },
+    "devDependencies" : {
+        "tap" : "~0.3.0"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/shell-stream.git"
+    },
+    "homepage" : "https://github.com/substack/shell-stream",
+    "keywords" : [
+        "shell",
+        "crypto",
+        "secure"
+    ],
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    },
+    "license" : "MIT"
+}
